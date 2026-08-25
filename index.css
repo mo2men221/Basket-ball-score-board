@@ -1,8 +1,7 @@
 body {
-    background: #1B244A;
     margin: 0;
+    background: #1B244A;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #EEEEEE;
 }
 
 .container {
@@ -10,31 +9,33 @@ body {
     justify-content: space-around;
 }
 h3{
-    font-weight: 700;
+    color: #EEEEEE;
     font-size: 40px;
+    font-weight: bold;
 }
-.score-board{
+
+.scoreboard{
+    background-color: #080001;
     width: 155px;
     height: 120px;
-    background-color: #080001;
 }
-.score{
-    font-family: 'Cursed Timer ULiL', sans-serif;                      
-    margin: -30px;
-    font-size: 90px;
+h4{
+    font-family: 'Cursed Timer ULiL', sans-serif;
     color: #F94F6D;
-    height: 140px;
+    font-size: 90px;
+    margin-top: -30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 140px;
 }
 .points-button{
-    margin: 10px 0;
+    margin-top: 30px;
 }
 .points{
     color: #9AABD8;
     background: none;
     border: 2px solid #9AABD8;
-    border-radius: 5px;
-    padding: 12px;
+    border-radius: 3px;
+    padding: 10px;
 }
